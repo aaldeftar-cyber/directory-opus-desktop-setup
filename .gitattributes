@@ -1,0 +1,10 @@
+# Do not edit manually
+*.html linguist-vendored
+**/*.py linguist-detectable
+*.py linguist-detectable
+
+public/** linguist-vendored
+*.yaml linguist-detectable=false
+
+* text=auto eol=lf
+dist/* linguist-vendored
